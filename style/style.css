@@ -6,7 +6,7 @@
    font-family: 'android';
    src: url('/style/idroid.otf') format('opentype');
 
-   
+
    font-weight: normal;
 }
 
@@ -22,7 +22,7 @@
 
     --fonte-padao:Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
-    --fonte-android: 'android';
+    --fonte-android: 'android', Arial;
  }
 
  * {
@@ -101,7 +101,7 @@
   transition-duration: 3s;
  }
 
- main h1 {
+ main > article > h1 {
   color: var(--cor5);
   font-family: var(--fonte-android);
   font-weight: normal;
