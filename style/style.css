@@ -101,7 +101,7 @@
   transition-duration: 3s;
  }
 
- main > article > h1 {
+ main h1 {
   color: var(--cor5);
   font-family: var(--fonte-android);
   font-weight: normal;
